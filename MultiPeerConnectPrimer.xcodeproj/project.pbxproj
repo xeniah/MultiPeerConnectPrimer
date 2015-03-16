@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9FA43D81AB6180F004FBDF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FA43D71AB6180F004FBDF1 /* main.m */; };
+		A9FA43DB1AB6180F004FBDF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FA43DA1AB6180F004FBDF1 /* AppDelegate.m */; };
+		A9FA43DE1AB6180F004FBDF1 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FA43DD1AB6180F004FBDF1 /* FirstViewController.m */; };
+		A9FA43E11AB6180F004FBDF1 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FA43E01AB6180F004FBDF1 /* SecondViewController.m */; };
+		A9FA43E41AB6180F004FBDF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9FA43E21AB6180F004FBDF1 /* Main.storyboard */; };
+		A9FA43E61AB6180F004FBDF1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9FA43E51AB6180F004FBDF1 /* Images.xcassets */; };
+		A9FA43E91AB6180F004FBDF1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9FA43E71AB6180F004FBDF1 /* LaunchScreen.xib */; };
+		A9FA43F51AB61810004FBDF1 /* MPPrimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FA43F41AB61810004FBDF1 /* MPPrimerTests.m */; };
+		A9FA44001AB61847004FBDF1 /* ConnectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FA43FF1AB61847004FBDF1 /* ConnectionsViewController.m */; };
+		A9FA44031AB65D8D004FBDF1 /* ConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FA44021AB65D8D004FBDF1 /* ConnectionManager.m */; };
+		A9FA44051AB66FDC004FBDF1 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FA44041AB66FDC004FBDF1 /* Constants.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9FA43EF1AB61810004FBDF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9FA43CA1AB6180F004FBDF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9FA43D11AB6180F004FBDF1;
+			remoteInfo = MPPrimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9FA43D21AB6180F004FBDF1 /* MultiPeerConnectPrimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiPeerConnectPrimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9FA43D61AB6180F004FBDF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9FA43D71AB6180F004FBDF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9FA43D91AB6180F004FBDF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A9FA43DA1AB6180F004FBDF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A9FA43DC1AB6180F004FBDF1 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		A9FA43DD1AB6180F004FBDF1 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		A9FA43DF1AB6180F004FBDF1 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		A9FA43E01AB6180F004FBDF1 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		A9FA43E31AB6180F004FBDF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9FA43E51AB6180F004FBDF1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A9FA43E81AB6180F004FBDF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A9FA43EE1AB61810004FBDF1 /* MultiPeerConnectPrimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiPeerConnectPrimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9FA43F31AB61810004FBDF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9FA43F41AB61810004FBDF1 /* MPPrimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPPrimerTests.m; sourceTree = "<group>"; };
+		A9FA43FE1AB61847004FBDF1 /* ConnectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionsViewController.h; sourceTree = "<group>"; };
+		A9FA43FF1AB61847004FBDF1 /* ConnectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionsViewController.m; sourceTree = "<group>"; };
+		A9FA44011AB65D8D004FBDF1 /* ConnectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionManager.h; sourceTree = "<group>"; };
+		A9FA44021AB65D8D004FBDF1 /* ConnectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionManager.m; sourceTree = "<group>"; };
+		A9FA44041AB66FDC004FBDF1 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9FA43CF1AB6180F004FBDF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FA43EB1AB61810004FBDF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9FA43C91AB6180F004FBDF1 = {
+			isa = PBXGroup;
+			children = (
+				A9FA43D41AB6180F004FBDF1 /* MPCPrimer */,
+				A9FA43F11AB61810004FBDF1 /* MPCPrimerTests */,
+				A9FA43D31AB6180F004FBDF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9FA43D31AB6180F004FBDF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9FA43D21AB6180F004FBDF1 /* MultiPeerConnectPrimer.app */,
+				A9FA43EE1AB61810004FBDF1 /* MultiPeerConnectPrimerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9FA43D41AB6180F004FBDF1 /* MPCPrimer */ = {
+			isa = PBXGroup;
+			children = (
+				A9FA43D91AB6180F004FBDF1 /* AppDelegate.h */,
+				A9FA43DA1AB6180F004FBDF1 /* AppDelegate.m */,
+				A9FA43DC1AB6180F004FBDF1 /* FirstViewController.h */,
+				A9FA43DD1AB6180F004FBDF1 /* FirstViewController.m */,
+				A9FA43DF1AB6180F004FBDF1 /* SecondViewController.h */,
+				A9FA43E01AB6180F004FBDF1 /* SecondViewController.m */,
+				A9FA43E21AB6180F004FBDF1 /* Main.storyboard */,
+				A9FA43E51AB6180F004FBDF1 /* Images.xcassets */,
+				A9FA43E71AB6180F004FBDF1 /* LaunchScreen.xib */,
+				A9FA43D51AB6180F004FBDF1 /* Supporting Files */,
+				A9FA43FE1AB61847004FBDF1 /* ConnectionsViewController.h */,
+				A9FA43FF1AB61847004FBDF1 /* ConnectionsViewController.m */,
+				A9FA44011AB65D8D004FBDF1 /* ConnectionManager.h */,
+				A9FA44021AB65D8D004FBDF1 /* ConnectionManager.m */,
+				A9FA44041AB66FDC004FBDF1 /* Constants.m */,
+			);
+			name = MPCPrimer;
+			path = MPPrimer;
+			sourceTree = "<group>";
+		};
+		A9FA43D51AB6180F004FBDF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9FA43D61AB6180F004FBDF1 /* Info.plist */,
+				A9FA43D71AB6180F004FBDF1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9FA43F11AB61810004FBDF1 /* MPCPrimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9FA43F41AB61810004FBDF1 /* MPPrimerTests.m */,
+				A9FA43F21AB61810004FBDF1 /* Supporting Files */,
+			);
+			name = MPCPrimerTests;
+			path = MPPrimerTests;
+			sourceTree = "<group>";
+		};
+		A9FA43F21AB61810004FBDF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9FA43F31AB61810004FBDF1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9FA43D11AB6180F004FBDF1 /* MultiPeerConnectPrimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9FA43F81AB61810004FBDF1 /* Build configuration list for PBXNativeTarget "MultiPeerConnectPrimer" */;
+			buildPhases = (
+				A9FA43CE1AB6180F004FBDF1 /* Sources */,
+				A9FA43CF1AB6180F004FBDF1 /* Frameworks */,
+				A9FA43D01AB6180F004FBDF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiPeerConnectPrimer;
+			productName = MPPrimer;
+			productReference = A9FA43D21AB6180F004FBDF1 /* MultiPeerConnectPrimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9FA43ED1AB61810004FBDF1 /* MultiPeerConnectPrimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9FA43FB1AB61810004FBDF1 /* Build configuration list for PBXNativeTarget "MultiPeerConnectPrimerTests" */;
+			buildPhases = (
+				A9FA43EA1AB61810004FBDF1 /* Sources */,
+				A9FA43EB1AB61810004FBDF1 /* Frameworks */,
+				A9FA43EC1AB61810004FBDF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9FA43F01AB61810004FBDF1 /* PBXTargetDependency */,
+			);
+			name = MultiPeerConnectPrimerTests;
+			productName = MPPrimerTests;
+			productReference = A9FA43EE1AB61810004FBDF1 /* MultiPeerConnectPrimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9FA43CA1AB6180F004FBDF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = xeniah;
+				TargetAttributes = {
+					A9FA43D11AB6180F004FBDF1 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					A9FA43ED1AB61810004FBDF1 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = A9FA43D11AB6180F004FBDF1;
+					};
+				};
+			};
+			buildConfigurationList = A9FA43CD1AB6180F004FBDF1 /* Build configuration list for PBXProject "MultiPeerConnectPrimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9FA43C91AB6180F004FBDF1;
+			productRefGroup = A9FA43D31AB6180F004FBDF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9FA43D11AB6180F004FBDF1 /* MultiPeerConnectPrimer */,
+				A9FA43ED1AB61810004FBDF1 /* MultiPeerConnectPrimerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9FA43D01AB6180F004FBDF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9FA43E41AB6180F004FBDF1 /* Main.storyboard in Resources */,
+				A9FA43E91AB6180F004FBDF1 /* LaunchScreen.xib in Resources */,
+				A9FA43E61AB6180F004FBDF1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FA43EC1AB61810004FBDF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9FA43CE1AB6180F004FBDF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9FA44001AB61847004FBDF1 /* ConnectionsViewController.m in Sources */,
+				A9FA43E11AB6180F004FBDF1 /* SecondViewController.m in Sources */,
+				A9FA43DB1AB6180F004FBDF1 /* AppDelegate.m in Sources */,
+				A9FA44031AB65D8D004FBDF1 /* ConnectionManager.m in Sources */,
+				A9FA43DE1AB6180F004FBDF1 /* FirstViewController.m in Sources */,
+				A9FA44051AB66FDC004FBDF1 /* Constants.m in Sources */,
+				A9FA43D81AB6180F004FBDF1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FA43EA1AB61810004FBDF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9FA43F51AB61810004FBDF1 /* MPPrimerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9FA43F01AB61810004FBDF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9FA43D11AB6180F004FBDF1 /* MultiPeerConnectPrimer */;
+			targetProxy = A9FA43EF1AB61810004FBDF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9FA43E21AB6180F004FBDF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9FA43E31AB6180F004FBDF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9FA43E71AB6180F004FBDF1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9FA43E81AB6180F004FBDF1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9FA43F61AB61810004FBDF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A9FA43F71AB61810004FBDF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9FA43F91AB61810004FBDF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MPPrimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = MultiPeerConnectPrimer;
+			};
+			name = Debug;
+		};
+		A9FA43FA1AB61810004FBDF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MPPrimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = MultiPeerConnectPrimer;
+			};
+			name = Release;
+		};
+		A9FA43FC1AB61810004FBDF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MPPrimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = MultiPeerConnectPrimerTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MPPrimer.app/MPPrimer";
+			};
+			name = Debug;
+		};
+		A9FA43FD1AB61810004FBDF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MPPrimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = MultiPeerConnectPrimerTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MPPrimer.app/MPPrimer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9FA43CD1AB6180F004FBDF1 /* Build configuration list for PBXProject "MultiPeerConnectPrimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9FA43F61AB61810004FBDF1 /* Debug */,
+				A9FA43F71AB61810004FBDF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9FA43F81AB61810004FBDF1 /* Build configuration list for PBXNativeTarget "MultiPeerConnectPrimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9FA43F91AB61810004FBDF1 /* Debug */,
+				A9FA43FA1AB61810004FBDF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A9FA43FB1AB61810004FBDF1 /* Build configuration list for PBXNativeTarget "MultiPeerConnectPrimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9FA43FC1AB61810004FBDF1 /* Debug */,
+				A9FA43FD1AB61810004FBDF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9FA43CA1AB6180F004FBDF1 /* Project object */;
+}
