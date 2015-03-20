@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface FirstViewController : UIViewController <UITextFieldDelegate>
 
+- (IBAction)sendMessage:(id)sender;
+- (IBAction)cancel:(id)sender;
 
 @end
 
