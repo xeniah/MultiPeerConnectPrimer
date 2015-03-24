@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController <UITextFieldDelegate>
+@interface ChatViewController : UIViewController <UITextFieldDelegate>
 
 - (IBAction)sendMessage:(id)sender;
 - (IBAction)cancel:(id)sender;

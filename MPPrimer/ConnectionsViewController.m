@@ -37,6 +37,8 @@
     
     self.availableDevicesTableView.delegate = self;
     self.availableDevicesTableView.dataSource = self;
+    
+    [self registerForNotifications];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -76,7 +78,7 @@
             }
         }
         
-        BOOL noActivePeers = [self.connectionManager.session connectedPeers].count == 0;
+        BOOL noActivePeers = self.peers.count == 0;
         [self.deviceNameTextField setEnabled:noActivePeers];
         [self.disconnectButton setEnabled:!noActivePeers];
         [self.availableDevicesTableView reloadData];

@@ -46,12 +46,14 @@
 // MCSessionStateConnected, MCSessionStateConnecting, MCSessionStateNotConnected
 -(void)session:(MCSession *)session peer:(MCPeerID *)peerID didChangeState:(MCSessionState)state{
     NSDictionary *dict = @{@"peerID": peerID, @"state" : [NSNumber numberWithInt:state]};
-    [[NSNotificationCenter defaultCenter] postNotificationName:SESSION_PEER_CHANGED_STATE object:dict];
+    [[NSNotificationCenter defaultCenter] postNotificationName:SESSION_PEER_CHANGED_STATE object:nil userInfo:dict];
 }
 
 
 -(void)session:(MCSession *)session didReceiveData:(NSData *)data fromPeer:(MCPeerID *)peerID{
+    NSDictionary *userInfo = @{@"peerID": peerID, @"data":data};
     
+    [[NSNotificationCenter defaultCenter] postNotificationName:SESSION_DID_RECEIVE_DATA object:nil userInfo:userInfo];
 }
 
 
